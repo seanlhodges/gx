@@ -1,12 +1,12 @@
 # Data Quality Assessment
 
-This sample code provides a simple introduction to using. the [Great Expectations](https://greatexpectations.io) library (version 1.3.0) in python. This library is suitable for production scale data assessment, but does have a steep learning curve.
+This sample code provides a simple introduction to using the [Great Expectations](https://greatexpectations.io) library (version 1.3.0) in python. This library is suitable for production scale data assessment, but does have a steep learning curve.
 
 ## Expectations
 
 To assess data quality, expectations for quality need to be defined and agreed between data quality analysts and subject matter experts. 
 
-With expectations set, they can be expressed as rules to measure data against. For example, a table needs to contain certain columns, and of the right type; fields values may need to be unique, or may need to conform to a given domain of values. 
+With expectations set, they can be expressed as rules to assess data. For example, a table needs to contain certain columns, and of the right type; fields values may need to be unique, or may need to conform to a given domain of values. 
 
 Whatever the expectations, they will require checking on a regular basis to ensure data quality is being maintained, or to identify where problems might be occurring. 
 
@@ -14,7 +14,7 @@ It would also be really handy to have some sort of documentation generated that 
 
 The *great_expectations* library provides tools to assist.
 
-To get started, and in a new python environment, use pip to install:
+To get started create a new python environment and use pip to install:
 
 ``` shell
 pip install great-expectations
